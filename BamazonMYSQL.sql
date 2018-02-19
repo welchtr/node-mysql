@@ -6,7 +6,7 @@ CREATE DATABASE Bamazon;
 
 USE Bamazon;
 
-CREATE TABLE Products (ItemID int AUTO_INCREMENT, ProductName varchar(50) NOT NULL, DepartmentName varchar(50) NOT NULL, Price varchar(30) NOT NULL, StockQuantity int NOT NULL, PRIMARY KEY(ItemID) );
+CREATE TABLE Products (ItemID int AUTO_INCREMENT, ProductName varchar(150) NOT NULL, DepartmentName varchar(100) NOT NULL, Price varchar(100) NOT NULL, StockQuantity int NOT NULL, PRIMARY KEY(ItemID) );
 describe Products;
 select * from Products;
 
